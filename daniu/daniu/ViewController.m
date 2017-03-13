@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+/** strong */
+@property(nonatomic, strong) NSString *name;
+
 @end
 
 @implementation ViewController
